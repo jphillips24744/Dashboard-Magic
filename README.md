@@ -19,29 +19,29 @@ _Coming soon..._
 
 ## Development
 
-## Development Guidelines
+### Development Guidelines
 
-### Version Control
+#### Version Control
 
 We use Git for version control, and follow the [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow.
 
-### Code Reviews
+#### Code Reviews
 
 All changes to the `main` branch require a pull request and must be reviewed by at least one other developer before being merged.
 
-### Testing
+#### Testing
 
 All code should include appropriate unit, integration, and/or end-to-end tests. We use `pytest` for writing tests.
 
-### CI/CD
+#### CI/CD
 
 We use GitHub Actions for continuous integration and continuous deployment. All tests must pass and code must meet all defined quality checks before being merged into `main`.
 
-### Coding Standards
+#### Coding Standards
 
 We follow PEP 8, the Python community's style guide. We use `flake8` to enforce these standards.
 
-### Documentation
+#### Documentation
 
 Code should be well-documented, both with comments in the code itself and in separate documentation. We use Sphinx to generate our project documentation.
 
